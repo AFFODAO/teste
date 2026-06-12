@@ -127,7 +127,7 @@ button:active {
     background: linear-gradient(135deg, #ffffff, #ffffff);
     color: rgb(0, 0, 0);
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     animation: aparecer 0.6s ease;
 }
 
@@ -146,6 +146,12 @@ button:active {
 }
 
 .card-resultado img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.cardf {
     width: 250px;
     height: 250px;
     object-fit: cover;
